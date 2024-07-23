@@ -49,7 +49,7 @@ const Client = () => {
         
           <div className=' flex text-4xl mt-20 justify-start max-lg:mt-5'>
             {client.map((val,index)=>(
-              <div key={index} onClick={()=>dotClick(index)} className={` cursor-pointer ${currSlide === index ? " text-[#e94057]" : "text-4xl"}`}>
+              <div key={val.id} onClick={()=>dotClick(index)} className={` cursor-pointer ${currSlide === index ? " text-[#e94057]" : "text-4xl"}`}>
                 <BsDot />
               </div>
             ))}
