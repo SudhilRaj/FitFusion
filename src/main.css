@@ -808,6 +808,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mb-7{
   margin-bottom: 1.75rem;
 }
@@ -838,10 +842,6 @@ video {
 
 .mt-\[35px\]{
   margin-top: 35px;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -1109,35 +1109,35 @@ video {
 }
 
 .bg-footer-pattern{
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url('assets/about.jpg');
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url('assets/about.webp');
 }
 
 .bg-gallery-pattern1{
-  background-image: url('assets/client5.jpg');
+  background-image: url('assets/client5.webp');
 }
 
 .bg-gallery-pattern2{
-  background-image: url('assets/gallery2.jpg');
+  background-image: url('assets/gallery2.webp');
 }
 
 .bg-gallery-pattern3{
-  background-image: url('assets/gallery3.jpg');
+  background-image: url('assets/gallery3.webp');
 }
 
 .bg-gallery-pattern4{
-  background-image: url('assets/gallery4.jpg');
+  background-image: url('assets/gallery4.webp');
 }
 
 .bg-gallery-pattern5{
-  background-image: url('assets/gallery5.jpg');
+  background-image: url('assets/gallery5.webp');
 }
 
 .bg-hero-pattern{
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.3)), url('assets/hero.jpg');
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.3)), url('assets/hero.webp');
 }
 
 .bg-service-pattern{
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.9)), url('assets/service.jpg');
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .9), rgba(43, 108, 176, 0.9)), url('assets/service.webp');
 }
 
 .from-black{
@@ -1792,10 +1792,6 @@ html{
     max-width: 100%;
   }
 
-  .max-lg\:max-w-\[50\%\]{
-    max-width: 50%;
-  }
-
   .max-lg\:max-w-\[80\%\]{
     max-width: 80%;
   }
@@ -1937,16 +1933,8 @@ html{
     margin-bottom: 5rem;
   }
 
-  .max-md\:h-\[100\%\]{
-    height: 100%;
-  }
-
   .max-md\:max-w-\[100\%\]{
     max-width: 100%;
-  }
-
-  .max-md\:max-w-\[70\%\]{
-    max-width: 70%;
   }
 
   .max-md\:grid-cols-1{
@@ -2030,10 +2018,6 @@ html{
 
   .max-sm\:w-full{
     width: 100%;
-  }
-
-  .max-sm\:max-w-\[100\%\]{
-    max-width: 100%;
   }
 
   .max-sm\:grid-cols-1{
